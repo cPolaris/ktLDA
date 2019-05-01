@@ -1,20 +1,20 @@
 import setuptools
-from distutils.core import setup
 from distutils.extension import Extension
-from Cython.Build import cythonize
+# from distutils.core import setup
+# from Cython.Build import cythonize
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
     name="ktLDA",
-    version="0.0.5",
+    version="0.0.6",
     author="Kehan (kehanLyu) & Tiangang (cPolaris)",
     author_email="",
     description="An implementation of latent Dirichlet allocation",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/",
+    url="https://github.com/cPolaris/ktLDA",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
