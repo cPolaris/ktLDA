@@ -1,6 +1,7 @@
 # ktLDA
 
 This is an implementation of Latent Dirichlet Allocation for pedagogical purposes.
+You may want to take a look at the [report](Report.pdf).
 
 ### Dependencies
 
